@@ -1,0 +1,8 @@
+[package]
+name = "wait-for-postgres"
+version = "1.0.0"
+authors = ["Cecile Tonglet <cecile.tonglet@collibra.com>"]
+
+[dependencies]
+postgres = "0.15"
+clap = "2.32"
