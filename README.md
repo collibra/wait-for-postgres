@@ -9,7 +9,8 @@ Installation
 ------------
 
 ```
-ADD ... /wait-for-postgres
+ADD https://github.com/collibra/wait-for-postgres/releases/download/v1.0.0/wait-for-postgres /
+RUN chmod +x /wait-for-postgres
 
 ...
 
